@@ -7,10 +7,10 @@ class Solution {
         
         int CONST = 1001;
         for(int i=0; i<n; i++) {
-            
             // a = r + b*q
             // r -> a%q = r%q + bq%q = r + 0 = r
             // b -> a/q = r/q + bq/q = 0 + b = b
+            // CONST -> n to infinity as size of arr is n
             nums[i] = nums[i] + (nums[nums[i]] % CONST) * CONST;
         }
         
