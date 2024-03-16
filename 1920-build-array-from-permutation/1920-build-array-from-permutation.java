@@ -5,15 +5,23 @@ class Solution {
             return nums;
         }
         
-        int CONST = 1001;
+        // CONST -> n to infinity anthing nore than n-1, as size of arr is n
+        int CONST = n;
+        
+        // a = r + b*q
         for(int i=0; i<n; i++) {
-            // a = r + b*q
+            
             // r -> a%q = r%q + bq%q = r + 0 = r
+            int r = nums[i];
+            
             // b -> a/q = r/q + bq/q = 0 + b = b
-            // CONST -> n to infinity as size of arr is n
-            nums[i] = nums[i] + (nums[nums[i]] % CONST) * CONST;
+            int b = nums[nums[i]] % CONST;
+            
+            // put it together => r+bq = a
+            nums[i] = r + b * CONST;
         }
         
+        // extract b from it
         for(int i=0; i<n; i++) {   
             nums[i] = nums[i]/CONST;
         }
@@ -34,3 +42,4 @@ class Solution {
         return ans;
     }
 }
+
