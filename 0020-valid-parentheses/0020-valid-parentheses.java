@@ -10,7 +10,7 @@ class Solution {
             (bkt1 == '(' && bkt2 == ')')
         );     
     }
-    
+    //  TC = O(N) for loop, SC = O(N) stack space
     public boolean isValid(String s) {
         int n = s.length();
         Stack<Character> stk = new Stack<>();
