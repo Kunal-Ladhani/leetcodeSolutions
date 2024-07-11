@@ -1,14 +1,12 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        String n = String.valueOf(x);
-        String[] chars = n.split("");
-        int l = 0, r = chars.length - 1;
-        while (l < r) {
-            if (!chars[l].equals(chars[r])) {
+        String s = String.valueOf(x);
+        int n = s.length(), i = 0, lim = n/2;
+        while (i < lim) {
+            if (s.charAt(i) != s.charAt(n-1-i)) {
                 return false;
             }
-            l++;
-            r--;
+            i++;
         }
         return true;
     }
