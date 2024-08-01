@@ -11,21 +11,24 @@ class Solution {
     }
     
     public int myAtoi(String s) {
-        s = s.trim();
-        int len = s.length();
-        if(len == 0) {
+        
+        int ans = 0, startIdx = 0, len = s.length();
+        
+        // remove white spaces from the string
+        while(startIdx < len && s.charAt(startIdx) == ' ') {
+            startIdx++;
+        }
+        
+        // means reached the end of string with no digits
+        if(startIdx == len) {
             return 0;
         }
         
-        boolean isNeg = (s.charAt(0) == '-');
+        boolean isNeg = (s.charAt(startIdx) == '-');
         
-        int startIdx = 0;
-        
-        if(isNeg || (s.charAt(0) == '+')) {
-            startIdx = 1;
+        if(isNeg || (s.charAt(startIdx) == '+')) {
+            startIdx++;
         }
-        
-        int ans = 0;
         
         while(startIdx < len && isNum(s.charAt(startIdx))) {
             int n = toNum(s.charAt(startIdx));
