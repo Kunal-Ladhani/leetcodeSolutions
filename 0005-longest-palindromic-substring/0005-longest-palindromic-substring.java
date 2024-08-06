@@ -5,35 +5,39 @@ class Solution {
             r++;
         }
         return s.substring(l+1, r);
+        
     }
     
     public String longestPalindrome(String s) {
         int n = s.length();
-        
-        if(n <= 1) {
+        if(n == 1) {
             return s;
         }
-        
         String ans = s.substring(0,1);
+        int max_len = ans.length();
+        // even len string
+        // center will be in between
+        for(int i=0; i<n; i++) {
+            String str = expand(s,n,i,i+1);
+            if(str.length() >ans.length()) {
+                ans = str;
+                max_len = ans.length();
+            }
+        }
         
-        for(int i=0; i<n-1; i++) {
-            // even len string
-            // center will be in between
-            String even = expand(s,n,i,i+1);
-            
-            // odd length string
-            // center will be a char
-            String odd = expand(s,n,i-1,i+1);
-            
-            if(odd.length() > ans.length()) {
-                ans = odd;
+        // odd length string
+        // center will be a char
+        for(int i=0; i<n; i++) {
+            String str = expand(s,n,i-1,i+1);
+            if(str.length() >ans.length()) {
+                ans = str;
+                max_len = ans.length();
             }
-            
-            if(even.length() > ans.length()) {
-                ans = even;
-            }
-        }    
+        }
         
         return ans;
     }
+    
+    
+    
 }
