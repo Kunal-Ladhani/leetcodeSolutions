@@ -1,24 +1,19 @@
 class Solution {
-    public int[] twoSum(int[] arr, int t) {
+    public int[] twoSum(int[] arr, int k) {
         int[] ans = new int[2];
         int n = arr.length;
+        if (n <= 1) return ans;
         
-        int s = 0, e = n-1;
-        while(s < e) {
-            if(arr[s] + arr[e] == t) {
-                ans[0] = s+1;
-                ans[1] = e+1;
+        int l = 0, h = n-1;
+        while(l < h) {
+            if (arr[l] + arr[h] == k) {
+                ans[0] = l+1;
+                ans[1] = h+1;
                 return ans;
-            } else if(arr[s] + arr[e] > t) {
-                while(e >= 1 && arr[e-1] == arr[e]) {
-                    e--;
-                }
-                e--;
+            } else if (arr[l] + arr[h] > k) {
+                h--;
             } else {
-                while(s < n && arr[s] == arr[s+1]) {
-                    s++;
-                }
-                s++;
+                l++;
             }
         }
         return ans;
