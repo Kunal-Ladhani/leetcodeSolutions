@@ -20,8 +20,8 @@ class Solution {
         
         for(int i=0; i<n; i++) {
             if(map.containsKey(k - arr[i])) {
-                ans[1] = i+1;
                 ans[0] = map.get(k - arr[i]) + 1;
+                ans[1] = i+1;
                 return ans;
             }
             map.put(arr[i],i);
