@@ -1,37 +1,33 @@
 class Solution {
-    private boolean isOpeningBracket(char bkt) {
-        return (bkt == '[' || bkt == '{' || bkt == '('); 
-    }
-    
-    private boolean isMatchingBracket(char bkt1, char bkt2) {
-        return (
-            (bkt1 == '[' && bkt2 == ']') ||
-            (bkt1 == '{' && bkt2 == '}') ||
-            (bkt1 == '(' && bkt2 == ')')
-        );     
-    }
-    //  TC = O(N) for loop, SC = O(N) stack space
+    private static boolean isOpening(char c) {
+		return c == '{' || c == '(' || c == '[';
+	}
+
+	private static boolean isMatching(char top, char bracket) {
+		return (top == '{' && bracket == '}') || (top == '(' && bracket == ')') || (top == '[' && bracket == ']');
+	}
+
+	private static boolean isBalanced(String s) {
+		int n = s.length();
+		if (n % 2 == 1)
+			return false;
+		Deque<Character> stack = new LinkedList<>();
+		for (int i = 0; i < n; i++) {
+			char bracket = s.charAt(i);
+			if (isOpening(bracket)) {
+				stack.push(bracket);
+			} else {
+				if (stack.isEmpty())
+					return false;
+				char topBracket = stack.pop();
+				if (!isMatching(topBracket, bracket))
+					return false;
+			}
+		}
+		return stack.isEmpty();
+	}
+
     public boolean isValid(String s) {
-        int n = s.length();
-        Stack<Character> stk = new Stack<>();
-        for(int i=0; i<n; i++) {
-            char bkt = s.charAt(i);
-            if(isOpeningBracket(bkt)) {
-                stk.push(bkt);
-            } else {
-                if(stk.size() != 0) {
-                    char top = stk.pop();
-                    if(!isMatchingBracket(top,bkt)) {
-                        return false;
-                    }                    
-                } else {
-                    return false;
-                }
-            }
-        }
-        if(stk.size() != 0) {
-            return false;
-        }
-        return true;
+        return isBalanced(s);
     }
 }
