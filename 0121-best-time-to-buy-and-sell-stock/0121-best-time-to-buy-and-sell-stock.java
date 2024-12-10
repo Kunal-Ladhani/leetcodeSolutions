@@ -10,13 +10,23 @@ class Solution {
         return nextGreatest;
     }
     
-    public int maxProfit(int[] prices) {
+    public int naive(int[] prices) {
         int n = prices.length;
-        int[] nextGreatest = getNextGreatestArray(prices, n);
+        int[] nextGreatest = getNextGreatestArray(prices, n);   // O(N) and O(N) space
         int maxProfit = 0;
         for(int i=0; i<n; i++) {
-            maxProfit = Math.max(maxProfit, nextGreatest[i] - prices[i]);
+            maxProfit = Math.max(maxProfit, nextGreatest[i] - prices[i]);   // O(N) time
         }
         return maxProfit;
     }
+    
+    public int maxProfit(int[] prices) {
+        int n = prices.length, ans = 0;
+        int leastSoFar = Integer.MAX_VALUE;
+        for(int i=0; i<n; i++) {
+            leastSoFar = Math.min(leastSoFar, prices[i]);
+            ans = Math.max(ans, prices[i] - leastSoFar);
+        }
+         return ans;
+     }
 }
