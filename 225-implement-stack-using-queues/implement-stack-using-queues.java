@@ -13,17 +13,17 @@ class MyStack {
             this.queue1.add(x);
         else {
             while(!this.queue1.isEmpty()) {
-                this.queue2.add(this.queue1.pop());
+                this.queue2.add(this.queue1.poll());
             }
             this.queue1.add(x);
             while(!this.queue2.isEmpty()) {
-                this.queue1.add(this.queue2.pop());
+                this.queue1.add(this.queue2.poll());
             }
         }
     }
     
     public int pop() {
-        return this.queue1.isEmpty() ? -1 : this.queue1.pop();
+        return this.queue1.isEmpty() ? -1 : this.queue1.poll();
     }
     
     public int top() {
