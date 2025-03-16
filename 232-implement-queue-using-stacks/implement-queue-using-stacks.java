@@ -1,37 +1,44 @@
 class MyQueue {
 
-    Deque<Integer> stack1;
-    Deque<Integer> stack2;
+    private Deque<Integer> input;
+    private Deque<Integer> output;
 
     public MyQueue() {
-        stack1 = new ArrayDeque<>();
-        stack2 = new ArrayDeque<>();
+        this.input = new ArrayDeque<>();
+        this.output = new ArrayDeque<>();
     }
     
     // TC = O(N)
     public void push(int x) {
-        while(!stack1.isEmpty()) {
-            stack2.push(stack1.pop());
-        }
-        stack1.push(x);
-        while(!stack2.isEmpty()) {
-            stack1.push(stack2.pop());
-        }
+        this.input.push(x);
     }
     
     // TC = O(1)
     public int pop() {
-        return stack1.isEmpty() ? -1 : stack1.pop();
+        // underflow
+        if (output.isEmpty() && input.isEmpty()) return -1;
+
+        if (output.isEmpty()) {
+            while(!input.isEmpty()) {
+                output.push(input.pop());
+            }
+        }
+        return output.pop();
     }
     
     // TC = O(1)
     public int peek() {
-        return stack1.isEmpty() ? -1 : stack1.peek();
+        if (output.isEmpty()) {
+            while(!input.isEmpty()) {
+                output.push(input.pop());
+            }
+        }
+        return output.peek();
     }
     
     // TC = O(1)
     public boolean empty() {
-        return stack1.isEmpty();
+        return input.isEmpty() && output.isEmpty();
     }
 }
 
