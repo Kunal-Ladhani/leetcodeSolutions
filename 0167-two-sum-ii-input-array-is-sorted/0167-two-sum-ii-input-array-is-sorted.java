@@ -1,46 +1,49 @@
 class Solution {
-    public int[] twoSum(int[] numbers, int target) {
-        return twoSumSorted(numbers,target);
-    }
-    
-    // TC = O(N), SC = O(N)
-    public int[] twoSumUnsorted(int[] arr, int k) {
+
+    public int[] twoSumUnsorted(int[] nums, int target) {
         int[] ans = new int[2];
-        int n = arr.length;
-        if (n <= 1) return ans;
-        
-        Map<Integer,Integer> map = new HashMap<>();
-        for(int i=0; i<n; i++) {
-            if(map.containsKey(k - arr[i])) {
-                ans[0] = map.get(k - arr[i]) + 1;
-                ans[1] = i+1;
+
+        // O(N) SC
+        Map<Integer, Integer> map = new HashMap<>();
+
+        // O(N) TC
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                ans[0] = map.get(complement) + 1;
+                ans[1] = i + 1;
                 return ans;
             }
-            map.put(arr[i],i);
+            map.put(nums[i], i);
         }
+
         return ans;
     }
-    
-    // TC = O(N), SC = O(1)
-    public int[] twoSumSorted(int[] arr, int k) {
+
+    public int[] twoSumSorted(int[] nums, int target) {
         int[] ans = new int[2];
-        int n = arr.length;
-        if (n <= 1) return ans;
-    
-        int l = 0, h = n-1;
-        while(l < h) {
-            if (arr[l] + arr[h] == k) {
-                ans[0] = l+1;
-                ans[1] = h+1;
+        int n = nums.length;
+        // O(1) SC
+
+        // O(N) TC
+        for (int i = 0, j = n - 1; i < j;) {
+            int sum = nums[i] + nums[j];
+            if (sum == target) {
+                ans[0] = i + 1;
+                ans[1] = j + 1;
                 return ans;
-            } else if (arr[l] + arr[h] > k) {
-                h--;
+            } else if (sum > target) {
+                j--;
             } else {
-                l++;
+                i++;
             }
         }
+
         return ans;
     }
-    
-        
+
+    public int[] twoSum(int[] arr, int t) {
+        // return twoSumUnsorted(arr,t);
+        return twoSumSorted(arr, t);
+    }
 }
