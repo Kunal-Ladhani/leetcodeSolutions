@@ -10,8 +10,15 @@ class Solution {
         int n = nums.length;
         int maxSubArraySum = Integer.MIN_VALUE, runningSum = 0;
         for (int i=0; i<n; ++i) {
-            runningSum = Math.max(runningSum + nums[i], nums[i]);
-            maxSubArraySum = Math.max(maxSubArraySum, runningSum);
+            runningSum += nums[i];
+            if (runningSum > maxSubArraySum) {
+                maxSubArraySum = runningSum;
+            }
+            if (runningSum < 0) {
+                runningSum = 0;
+            }
+            // runningSum = Math.max(runningSum + nums[i], nums[i]);
+            // maxSubArraySum = Math.max(maxSubArraySum, runningSum);
         }
         return maxSubArraySum;
     }
