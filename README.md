@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0485-max-consecutive-ones](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0485-max-consecutive-ones) |
 ## Two Pointers
 |  |
 | ------- |
