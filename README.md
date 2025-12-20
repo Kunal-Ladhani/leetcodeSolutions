@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0485-max-consecutive-ones) |
+| [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -75,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0141-linked-list-cycle) |
+| [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
 ## Math
 |  |
 | ------- |
@@ -108,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0155-min-stack) |
+| [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
 ## Matrix
 |  |
 | ------- |
@@ -123,4 +127,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0012-integer-to-roman](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0013-roman-to-integer) |
+## Hash Function
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
