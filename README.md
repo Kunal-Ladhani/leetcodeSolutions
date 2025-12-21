@@ -116,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0155-min-stack) |
 | [0705-design-hashset](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
+| [0933-number-of-recent-calls](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0933-number-of-recent-calls) |
 ## Matrix
 |  |
 | ------- |
@@ -136,4 +137,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0705-design-hashset](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
+## Queue
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0933-number-of-recent-calls) |
+## Data Stream
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
