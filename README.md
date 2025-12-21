@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0705-design-hashset](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
+| [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Math
 |  |
 | ------- |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0050-powx-n) |
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
+| [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
 |  |
 | ------- |
