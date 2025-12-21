@@ -61,17 +61,16 @@ class MyHashSet {
             return;
         }
 
-        // delete first node
+        // delete the first one
         if (head.key == key) {
-            map[key % this.capacity] = head.next;
+            this.map[key % this.capacity] = head.next;
             head.next = null;
             this.size--;
             return;
         }
 
-        // only one node 
         Node curr = head;
-        Node prev = null;
+        Node prev = head;
         while (curr != null) {
             if (curr.key == key) {
                 prev.next = curr.next;
