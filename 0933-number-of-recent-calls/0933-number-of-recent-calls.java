@@ -1,20 +1,21 @@
 class RecentCounter {
 
-    private List<Integer> list;
+    private static final int[] ARRAY = new int[10_000]; 
+    // at max 10^4 requests will be there
+    private int start;
+    private int end;
 
     public RecentCounter() {
-        list = new ArrayList<>();
+        start = 0;
+        end = 0;
     }
     
     public int ping(int t) {
-        list.add(t);
-        int count = 0;
-        for (int x : list) {
-            if (x >= t-3000 && x <= t) {
-                count++;
-            }
+        while (start < end && (t > ARRAY[start] + 3000)) {
+            start++;
         }
-        return count;
+        ARRAY[end++] = t;
+        return end - start;
     }
 }
 
