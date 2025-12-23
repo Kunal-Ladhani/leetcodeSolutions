@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0024-swap-nodes-in-pairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0141-linked-list-cycle](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0705-design-hashset](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0050-powx-n) |
 | [0326-power-of-three](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0342-power-of-four) |
