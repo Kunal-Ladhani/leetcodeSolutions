@@ -1,41 +1,28 @@
 class Solution {
-
-    /**
-        pow(x,n) = x^n = 
-        
-        we have 2 options here -
-
-        n == odd 
-        => n = 2k+1
-        pow(x,n) = pow(x,n/2) * pow(x,n/2) * x 
-
-        n == even 
-        => n = 2k
-        pow(x,n) = pow(x,n/2) * pow(x,n/2)
-    */
     public double myPow(double x, int n) {
-        return binaryExp(x, (long) n);
+        return helper(x, (long)n);
     }
 
-    private static double binaryExp(double x, long n) {
-        if (n == 0)
+    private double helper(double x, long n) {
+        if (n == 0 && x != 0) {
             return 1.0d;
-        
-        if (n == 1)
+        }    
+        if (x == 1 || x == 0) {
             return x;
-        
+        } 
+
         if (n < 0) {
-            x = (double) 1/x;
+            x = 1/x;
             n = -1 * n;
         }
 
-        double half;
-        if (n%2 == 0) {
-            half = binaryExp(x, n/2);            
-            return half * half;            
-        }
+        double temp;
+        if (n % 2 == 0) {
+            temp = helper(x, n/2);
+            return temp * temp;
+        } 
 
-        half = binaryExp(x, (n-1)/2);   
-        return half * half * x;
+        temp = helper(x, (n-1)/2);
+        return x * temp * temp;
     }
 }
