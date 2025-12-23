@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0050-powx-n) |
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
+| [0326-power-of-three](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0342-power-of-four) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0050-powx-n) |
+| [0326-power-of-three](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0342-power-of-four) |
 ## Dynamic Programming
 |  |
