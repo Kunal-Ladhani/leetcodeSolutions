@@ -158,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0101-symmetric-tree) |
+| [0112-path-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0112-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0450-delete-node-in-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0101-symmetric-tree) |
+| [0112-path-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0112-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1302-deepest-leaves-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1302-deepest-leaves-sum) |
 ## Binary Search Tree
@@ -178,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0101-symmetric-tree) |
+| [0112-path-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0112-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0450-delete-node-in-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -186,5 +189,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0101-symmetric-tree) |
+| [0112-path-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0112-path-sum) |
 | [1302-deepest-leaves-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1302-deepest-leaves-sum) |
 <!---LeetCode Topics End-->
