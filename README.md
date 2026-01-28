@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0015-3sum) |
 | [0053-maximum-subarray](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0054-spiral-matrix) |
@@ -147,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0012-integer-to-roman](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0014-longest-common-prefix) |
 ## Hash Function
 |  |
 | ------- |
@@ -201,4 +203,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0101-symmetric-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0101-symmetric-tree) |
 | [0112-path-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0112-path-sum) |
 | [1302-deepest-leaves-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1302-deepest-leaves-sum) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
