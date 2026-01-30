@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0075-sort-colors](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0141-linked-list-cycle) |
+| [0151-reverse-words-in-a-string](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0014-longest-common-prefix) |
+| [0151-reverse-words-in-a-string](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0151-reverse-words-in-a-string) |
 ## Hash Function
 |  |
 | ------- |
