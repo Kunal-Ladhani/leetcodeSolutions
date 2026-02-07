@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0485-max-consecutive-ones](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0485-max-consecutive-ones) |
 | [0705-design-hashset](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
+| [1046-last-stone-weight](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1046-last-stone-weight) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [1046-last-stone-weight](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1046-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
