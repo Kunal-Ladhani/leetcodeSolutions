@@ -1,29 +1,33 @@
 class Solution {
-    public int[] topKFrequent(int[] arr, int k) {
-        int n = arr.length;
+    public int[] topKFrequent(int[] nums, int k) {
+        // freq map to get freq of each element in O(1) time
+        Map<Integer, Integer> freq = new HashMap<>();
+        Set<Integer> unique = new HashSet<>();
+        for (int n : nums) {
+            freq.put(n, freq.getOrDefault(n, 0) + 1);
+            unique.add(n);
+        }
+        
+        // min heap so that i can remove the minimum freq element
+        // min freq element will be at top
+        // store max freq k elements in queue
+        Queue<Integer> pq = new PriorityQueue<>((p,q) -> freq.get(p) - freq.get(q));
 
-        if (n <= 1)
-            return arr;
+        for (int n : unique) {
+            if (pq.size() < k) {
+                pq.offer(n);
+            } else if (freq.get(n) > freq.get(pq.peek())) {
+                pq.poll();
+                pq.offer(n);
+            }
+        }
 
-        Map<Integer, Integer> map = new HashMap<>();
         int[] ans = new int[k];
-
-        for(int i : arr) {
-            map.put(i, map.getOrDefault(i, 0) + 1);
-        }
-
-        List<int[]> temp = new ArrayList<>();
-        for (Map.Entry<Integer,Integer> entry : map.entrySet()) {
-            temp.add(new int[]{entry.getValue(), entry.getKey()});
-        }
-
-        Collections.sort(temp, (a,b) -> b[0] - a[0]);
-
-        for(int i=0; i<k; i++) {
-            ans[i] = temp.get(i)[1];
+        int i=0;
+        while(!pq.isEmpty() && i<k) {
+            ans[i++] = pq.poll();
         }
 
         return ans;
-
     }
 }
