@@ -116,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0342-power-of-four) |
@@ -133,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0338-counting-bits](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0338-counting-bits) |
 ## Bit Manipulation
@@ -242,4 +244,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
