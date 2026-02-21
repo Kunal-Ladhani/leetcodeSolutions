@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0485-max-consecutive-ones](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0485-max-consecutive-ones) |
 | [0705-design-hashset](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0706-design-hashmap) |
+| [0746-min-cost-climbing-stairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0973-k-closest-points-to-origin](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1046-last-stone-weight) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0338-counting-bits](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0338-counting-bits) |
+| [0746-min-cost-climbing-stairs](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0746-min-cost-climbing-stairs) |
 ## Bit Manipulation
 |  |
 | ------- |
