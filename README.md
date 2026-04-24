@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0342-power-of-four) |
+| [0371-sum-of-two-integers](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0371-sum-of-two-integers) |
 | [0973-k-closest-points-to-origin](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0342-power-of-four) |
+| [0371-sum-of-two-integers](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0371-sum-of-two-integers) |
 ## Stack
 |  |
 | ------- |
