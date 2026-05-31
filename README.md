@@ -206,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0450-delete-node-in-a-bst) |
 | [0617-merge-two-binary-trees](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0617-merge-two-binary-trees) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0938-range-sum-of-bst) |
 | [1302-deepest-leaves-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1302-deepest-leaves-sum) |
 ## Depth-First Search
 |  |
@@ -215,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0133-clone-graph) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0617-merge-two-binary-trees](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0617-merge-two-binary-trees) |
+| [0938-range-sum-of-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0938-range-sum-of-bst) |
 | [1302-deepest-leaves-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1302-deepest-leaves-sum) |
 ## Binary Search Tree
 |  |
@@ -222,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0450-delete-node-in-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0938-range-sum-of-bst) |
 ## Binary Tree
 |  |
 | ------- |
@@ -233,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0450-delete-node-in-a-bst) |
 | [0617-merge-two-binary-trees](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0617-merge-two-binary-trees) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0938-range-sum-of-bst) |
 | [1302-deepest-leaves-sum](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/1302-deepest-leaves-sum) |
 ## Breadth-First Search
 |  |
