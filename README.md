@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0090-subsets-ii) |
 | [0191-number-of-1-bits](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0268-missing-number) |
@@ -280,5 +282,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0040-combination-sum-ii](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Kunal-Ladhani/leetcodeSolutions/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
