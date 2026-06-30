@@ -10,22 +10,17 @@
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
-        // return evenOddWithoutDummy(head);    
-        
         if (head == null || head.next == null)
             return head;
 
-        ListNode odd = head;
-        ListNode even = head.next;
+        ListNode evenStart = head.next, evenEnd = head.next;
+        ListNode oddStart = head, oddEnd = head;
 
-        ListNode evenStart = even, evenEnd = even;
-        ListNode oddStart = odd, oddEnd = odd;
-
-        ListNode curr = even.next;
-        int pos = 3;
+        ListNode curr = head.next.next;
+        boolean isOdd = true;
         
         while (curr != null) {
-            if (pos % 2 == 1) {
+            if (isOdd) {
                 // odd position node
                 oddEnd.next = curr;
                 oddEnd = oddEnd.next;
@@ -35,7 +30,7 @@ class Solution {
                 evenEnd = evenEnd.next;
             }
             curr = curr.next;
-            pos++;
+            isOdd = !isOdd;
         }
 
         evenEnd.next = null;
