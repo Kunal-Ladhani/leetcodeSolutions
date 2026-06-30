@@ -9,10 +9,6 @@
  * }
  */
 class Solution {
-    static class Block {
-        ListNode node;
-
-    }
 
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode head = null;
@@ -21,7 +17,8 @@ class Solution {
         int k = lists.length;
         // this is the no of lists
 
-        Queue<ListNode> pq = new PriorityQueue<>((ListNode a, ListNode b) -> a.val - b.val);    // min heap as small to large we want
+        Queue<ListNode> pq = new PriorityQueue<>((ListNode a, ListNode b) -> a.val - b.val);    
+        // min heap as small to large we want
         
         // put all the heads inside the PQ
         for (int i=0; i<k; i++) {
@@ -43,6 +40,8 @@ class Solution {
                 curr = curr.next;
             }
         }
+
         return head;
     }
+
 }
